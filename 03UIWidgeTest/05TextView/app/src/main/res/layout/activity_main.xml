@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+<!--    <TextView-->
+<!--        android:layout_width="300dp"-->
+<!--        android:layout_height="300dp"-->
+<!--        android:id="@+id/tv_01"-->
+<!--        android:text="@string/tv_01"-->
+<!--        android:textColor="@color/customRed"-->
+<!--        android:textStyle="bold"-->
+<!--        android:textSize="30sp"-->
+<!--        android:gravity="center"-->
+<!--        android:shadowColor="@color/black"-->
+<!--        android:shadowRadius="3.0"-->
+<!--        android:shadowDx="10.0"-->
+<!--        android:shadowDy="10.0"-->
+<!--        />-->
+
+<!--    跑马灯效果-->
+    <TextView
+        android:layout_width="300dp"
+        android:layout_height="300dp"
+        android:id="@+id/tv_01"
+        android:text="@string/tv_01"
+        android:textColor="@color/customRed"
+        android:textStyle="bold"
+        android:textSize="30sp"
+        android:gravity="left"
+        android:singleLine="true"
+        android:shadowColor="@color/black"
+        android:shadowRadius="3.0"
+        android:shadowDx="10.0"
+        android:focusable="true"
+        android:focusableInTouchMode="true"
+        android:ellipsize="marquee"
+        android:marqueeRepeatLimit="marquee_forever"
+        android:shadowDy="10.0"
+        >
+        <requestFocus/>
+    </TextView>
+
+</LinearLayout>

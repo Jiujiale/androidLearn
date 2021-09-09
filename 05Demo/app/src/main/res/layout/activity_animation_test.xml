@@ -1,0 +1,135 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".AnimationTest">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+            <TextView
+                android:id="@+id/activity_animation_tv01"
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:background="#FF0000"
+                android:gravity="center"
+                android:textStyle="bold"
+                android:text="alpha "/>
+
+            <TextView
+                android:id="@+id/activity_animation_tv02"
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:background="#FF0000"
+                android:gravity="center"
+                android:textStyle="bold"
+                android:layout_marginTop="10dp"
+                android:text="rotation "/>
+
+            <TextView
+                android:id="@+id/activity_animation_tv03"
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:background="#FF0000"
+                android:gravity="center"
+                android:textStyle="bold"
+                android:layout_marginTop="10dp"
+                android:text="rotation x"/>
+
+            <TextView
+                android:id="@+id/activity_animation_tv04"
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:background="#FF0000"
+                android:gravity="center"
+                android:textStyle="bold"
+                android:layout_marginTop="10dp"
+                android:text="rotation y"/>
+
+            <TextView
+                android:id="@+id/activity_animation_tv05"
+                android:layout_width="200dp"
+                android:layout_height="40dp"
+                android:background="#FF0000"
+                android:gravity="center"
+                android:textStyle="bold"
+                android:layout_gravity="center"
+                android:layout_marginTop="10dp"
+                android:text="scale x"/>
+
+            <TextView
+                android:id="@+id/activity_animation_tv06"
+                android:layout_width="200dp"
+                android:layout_gravity="center"
+                android:layout_height="40dp"
+                android:background="#FF0000"
+                android:gravity="center"
+                android:textStyle="bold"
+                android:layout_marginTop="10dp"
+                android:text="scale y"/>
+
+            <TextView
+                android:id="@+id/activity_animation_tv07"
+                android:layout_width="200dp"
+                android:layout_height="40dp"
+                android:background="#FF0000"
+                android:gravity="center"
+                android:layout_gravity="center"
+                android:textStyle="bold"
+                android:layout_marginTop="10dp"
+                android:text="scale xBy"/>
+
+            <TextView
+                android:id="@+id/activity_animation_tv08"
+                android:layout_width="200dp"
+                android:layout_height="40dp"
+                android:background="#FF0000"
+                android:gravity="center"
+                android:layout_gravity="center"
+                android:textStyle="bold"
+                android:layout_marginTop="10dp"
+                android:text="translation x"/>
+
+            <TextView
+                android:id="@+id/activity_animation_tv09"
+                android:layout_width="200dp"
+                android:layout_height="40dp"
+                android:background="#FF0000"
+                android:gravity="center"
+                android:layout_gravity="center"
+                android:textStyle="bold"
+                android:layout_marginTop="10dp"
+                android:text="translation y"/>
+
+            <TextView
+                android:id="@+id/activity_animation_tv10"
+                android:layout_width="200dp"
+                android:layout_height="40dp"
+                android:background="#FF0000"
+                android:gravity="center"
+                android:layout_gravity="center"
+                android:textStyle="bold"
+                android:layout_marginTop="10dp"
+                android:text="translation xBy"/>
+
+            <TextView
+                android:id="@+id/activity_animation_tv11"
+                android:layout_width="200dp"
+                android:layout_height="40dp"
+                android:background="#FF0000"
+                android:gravity="center"
+                android:layout_gravity="center"
+                android:textStyle="bold"
+                android:layout_marginTop="10dp"
+                android:text="ObjectAnimator"/>
+        </LinearLayout>
+    </ScrollView>
+
+</LinearLayout>

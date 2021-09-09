@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".fragTest2.ABlankFragment">
+
+    <Button
+        android:id="@+id/frag2_pass"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="pass parameter"/>
+    <Button
+        android:id="@+id/frag2_next"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="next fragment"/>
+    <Button
+        android:id="@+id/frag2_change_context"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="change context"/>
+    <TextView
+        android:id="@+id/frag2_tv"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="hello ~"/>
+
+</LinearLayout>

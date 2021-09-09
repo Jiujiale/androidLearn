@@ -1,0 +1,157 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <ScrollView
+        android:id="@+id/main_scroll"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <LinearLayout
+            android:orientation="vertical"
+            android:padding="10dp"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+            <Button
+                android:id="@+id/image_view"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textAllCaps="false"
+                android:layout_marginBottom="10dp"
+                android:text="ImageView"/>
+
+            <Button
+                android:id="@+id/list_view"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textAllCaps="false"
+                android:layout_marginBottom="10dp"
+                android:text="ListView"/>
+
+            <Button
+                android:id="@+id/btn_grid_view"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textAllCaps="false"
+                android:layout_marginBottom="10dp"
+                android:text="GridView"/>
+
+            <Button
+                android:id="@+id/btn_recycler_view"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textAllCaps="false"
+                android:layout_marginBottom="10dp"
+                android:text="RecyclerView->LinearList"/>
+
+            <Button
+                android:id="@+id/btn_recycler_view_hor"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textAllCaps="false"
+                android:layout_marginBottom="10dp"
+                android:text="RecyclerView->LinearList->Horizontal"/>
+
+            <Button
+                android:id="@+id/btn_recycler_view_stag"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textAllCaps="false"
+                android:layout_marginBottom="10dp"
+                android:text="RecyclerView->Stag"/>
+
+            <Button
+                android:id="@+id/btn_web_view"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textAllCaps="false"
+                android:layout_marginBottom="10dp"
+                android:text="WebView"/>
+
+            <Button
+                android:id="@+id/btn_custom_toast"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textAllCaps="false"
+                android:layout_marginBottom="10dp"
+                android:text="Toast"/>
+
+            <Button
+                android:id="@+id/btn_pop_up"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textAllCaps="false"
+                android:layout_marginBottom="10dp"
+                android:text="Popup Window"/>
+
+            <Button
+                android:id="@+id/btn_fragment"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textAllCaps="false"
+                android:layout_marginBottom="10dp"
+                android:text="Fragment"/>
+
+            <Button
+                android:id="@+id/btn_fragment2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textAllCaps="false"
+                android:layout_marginBottom="10dp"
+                android:text="Fragment Stack Test"/>
+
+            <Button
+                android:id="@+id/btn_shared_data"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textAllCaps="false"
+                android:layout_marginBottom="10dp"
+                android:text="Shared Data"/>
+
+            <Button
+                android:id="@+id/btn_file_data"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textAllCaps="false"
+                android:layout_marginBottom="10dp"
+                android:text="File Data"/>
+
+            <Button
+                android:id="@+id/btn_broadcast"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textAllCaps="false"
+                android:layout_marginBottom="10dp"
+                android:text="Broadcast"/>
+
+            <Button
+                android:id="@+id/btn_animation"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textAllCaps="false"
+                android:layout_marginBottom="10dp"
+                android:text="Animation"/>
+
+            <Button
+                android:id="@+id/btn_message"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textAllCaps="false"
+                android:layout_marginBottom="10dp"
+                android:text="Message"/>
+
+            <Button
+                android:id="@+id/btn_photo"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textAllCaps="false"
+                android:layout_marginBottom="10dp"
+                android:text="Take Photo"/>
+        </LinearLayout>
+    </ScrollView>
+
+</LinearLayout>

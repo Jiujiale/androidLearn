@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ImageViewDemo">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:orientation="vertical"
+            android:layout_height="match_parent">
+            <ImageView
+                android:id="@+id/image_view01"
+                android:layout_width="200dp"
+                android:src="@mipmap/ic_launcher"
+                android:layout_height="200dp"/>
+
+            <ImageView
+                android:id="@+id/image_view02"
+                android:layout_width="100dp"
+                android:layout_height="30dp"
+                android:layout_below="@+id/image_view01"
+                android:layout_marginTop="10dp"
+                android:scaleType="fitXY"
+                android:src="@mipmap/ic_launcher"/>
+
+            <ImageView
+                android:id="@+id/image_view03"
+                android:layout_width="200dp"
+                android:layout_height="100dp"
+                android:scaleType="center"
+                android:layout_marginTop="10dp"
+                android:src="@mipmap/ic_launcher"
+                android:layout_below="@+id/image_view02"/>
+
+            <ImageView
+                android:id="@+id/image_view04"
+                android:layout_width="200dp"
+                android:layout_height="100dp"
+                android:src="@mipmap/ic_launcher"
+                android:layout_marginTop="10dp"
+                android:scaleType="centerCrop"
+                android:layout_below="@+id/image_view03"/>
+
+            <ImageView
+                android:layout_width="200dp"
+                android:layout_height="100dp"
+                android:id="@+id/image_view05"
+                android:scaleType="fitXY"
+                android:layout_marginTop="10dp"
+                android:background="@color/purple_700"
+                android:layout_below="@+id/image_view04"/>
+        </LinearLayout>
+    </ScrollView>
+</RelativeLayout>

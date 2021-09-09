@@ -1,0 +1,4 @@
+<resources>
+    <string name="app_name">01ActivityTest</string>
+    <string name="debug_log_tag">data</string>
+</resources>
